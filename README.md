@@ -8,7 +8,7 @@
 ## Experiência Profissional
 ### 💼 Menor Aprendiz
 **Cargo:** Menor Aprendiz - (Suporte - TI)
-**Período:** [16/05/2022] - [16/07/2023]
+**Período:** [16/05/2022] - [16/05/2023]
 **-Indústria Metalúrgica
 
 ### 💻 Estágio
