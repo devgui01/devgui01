@@ -41,10 +41,3 @@
 ## Educação
 - **🏫 Ensino Médio:** E. E. Dr. Mário De Castro
 - Cursando
-## Social
-- **📧 Email:** guilhermekauamt01@gmail.com
-- **📸 Instagram:** @glkau.an
-## Interesses
-- 🚀 Ingressar em Projetos
-- 📚 Aprender/Aprofundar em Linguagens
-*"A jornada de mil milhas começa com um único passo."* - Lao Tzu
