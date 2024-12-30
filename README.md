@@ -22,8 +22,8 @@
 **-Indústria Metalúrgica
 
 ## Habilidades
-- **Linguagens de Programação: Delphi, JavaScript, SQL Server
-- **Desenvolvimento Web: HTML, CSS, JavaScript
+- **Linguagens de Programação: Delphi, Python, SQL Server
+- **Desenvolvimento Web: HTML, CSS, Django
 - **Ferramentas e Tecnologias: SQL Server, Visual Studio Code, Git - GitHub
 ## Projetos
 ### 🍔 **E-commerce de Hambúrgueres**
