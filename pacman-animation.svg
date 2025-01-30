@@ -1,0 +1,13 @@
+<svg viewBox="0 0 200 100" width="200" height="100" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="40" cy="50" r="20" fill="yellow">
+    <animate attributeName="cx" from="40" to="160" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <polygon points="50,50 70,40 70,60" fill="black">
+    <animate attributeName="points" values="50,50 70,40 70,60; 50,50 40,40 40,60" dur="0.2s" repeatCount="indefinite"/>
+  </polygon>
+  <circle cx="160" cy="50" r="15" fill="blue">
+    <animate attributeName="cx" from="160" to="40" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="155" cy="45" r="3" fill="white"/>
+  <circle cx="165" cy="45" r="3" fill="white"/>
+</svg>
