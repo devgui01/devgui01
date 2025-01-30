@@ -1,28 +1,43 @@
 <svg viewBox="0 0 200 100" width="200" height="100" xmlns="http://www.w3.org/2000/svg">
   <!-- Pac-Man -->
-  <circle cx="30" cy="50" r="15" fill="yellow">
-    <animate attributeName="cx" from="30" to="170" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  
-  <!-- Boca do Pac-Man -->
-  <polygon points="30,50 45,40 45,60" fill="black">
-    <animate attributeName="points" values="30,50 45,40 45,60; 30,50 30,50 30,50" dur="0.2s" repeatCount="indefinite"/>
-  </polygon>
-  
-  <!-- Fantasma -->
   <g>
-    <circle cx="170" cy="50" r="13" fill="red">
-      <animate attributeName="cx" from="170" to="30" dur="2s" repeatCount="indefinite"/>
+    <circle cx="30" cy="50" r="15" fill="yellow">
+      <animate attributeName="cx" from="30" to="170" dur="2s" repeatCount="indefinite"/>
     </circle>
-    <!-- Olhos -->
-    <circle cx="165" cy="45" r="3" fill="white"/>
-    <circle cx="175" cy="45" r="3" fill="white"/>
+    <!-- Boca do Pac-Man abrindo e fechando -->
+    <polygon id="mouth" fill="black">
+      <animate attributeName="points" values="
+        30,50 45,40 45,60;
+        30,50 30,50 45,50;
+        30,50 45,40 45,60" 
+        dur="0.3s" repeatCount="indefinite"/>
+    </polygon>
+  </g>
+
+  <!-- Fantasma -->
+  <g id="ghost">
+    <!-- Corpo do fantasma -->
+    <path d="M 170 50 Q 160 20 150 50 L 150 65 Q 155 75 160 65 Q 165 75 170 65 Q 175 75 180 65 L 180 50" fill="red">
+      <animate attributeName="d" values="
+        M 170 50 Q 160 20 150 50 L 150 65 Q 155 75 160 65 Q 165 75 170 65 Q 175 75 180 65 L 180 50;
+        M 30 50 Q 20 20 10 50 L 10 65 Q 15 75 20 65 Q 25 75 30 65 Q 35 75 40 65 L 40 50" 
+        dur="2s" repeatCount="indefinite"/>
+    </path>
+    
+    <!-- Olhos do fantasma -->
+    <circle cx="165" cy="45" r="4" fill="white">
+      <animate attributeName="cx" from="165" to="25" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="175" cy="45" r="4" fill="white">
+      <animate attributeName="cx" from="175" to="35" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    
     <!-- Pupilas seguindo Pac-Man -->
-    <circle cx="166" cy="45" r="1.5" fill="black">
-      <animate attributeName="cx" from="166" to="160" dur="2s" repeatCount="indefinite"/>
+    <circle cx="166" cy="45" r="2" fill="black">
+      <animate attributeName="cx" from="166" to="26" dur="2s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="176" cy="45" r="1.5" fill="black">
-      <animate attributeName="cx" from="176" to="170" dur="2s" repeatCount="indefinite"/>
+    <circle cx="176" cy="45" r="2" fill="black">
+      <animate attributeName="cx" from="176" to="36" dur="2s" repeatCount="indefinite"/>
     </circle>
   </g>
 </svg>
